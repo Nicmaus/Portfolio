@@ -1,0 +1,38 @@
+.navContainer {
+  margin-bottom: 10rem;
+  width: 100vw;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em;
+ 
+}
+li {
+  box-shadow: 5px 5px 15px 5px rgb(71, 165, 168);
+  border-radius: 10px 100%;
+}
+
+a {
+  color: rgb(173, 230, 219);
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.active {
+  color: rgb(255, 0, 251);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 530px){
+  ul{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .navContainer {
+    margin-bottom: 5rem;
+    width: 100vw;
+  }
+}

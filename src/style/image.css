@@ -1,0 +1,14 @@
+img {
+  width: 20rem;
+  border-radius: 50%;
+  box-shadow: 10px 10px 50px 10px rgb(71, 165, 168);
+}
+
+@media screen and (max-width: 530px) {
+  img {
+    width: 10rem;
+    border-radius: 50%;
+    box-shadow: 10px 10px 50px 10px rgb(71, 165, 168);
+    margin-bottom: 10%;
+  }
+}

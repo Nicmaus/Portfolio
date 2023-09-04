@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  font-style: italic;
+  color: rgb(173, 230, 219);
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/sky3.jpg);
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.home{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  font-size: 1.5em;
+}
+
+.form {
+  height: 20rem;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.form input {
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form textarea {
+  display: block;
+  width: 25rem;
+  height: 5rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form Button {
+  width: 10rem;
+  background-color: white;
+  font-size: 1em;
+  border-radius: 10px;
+}
+
+.hallo {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Berkshire Swash", cursive;
+  color: rgb(136, 244, 221);
+  text-decoration: underline;
+}
+
+.text{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Berkshire Swash", cursive;
+  color: rgb(0, 255, 200);
+}
+
+p {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 530px) {
+  .hallo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .text{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Berkshire Swash", cursive;
+  }
+  
+}
