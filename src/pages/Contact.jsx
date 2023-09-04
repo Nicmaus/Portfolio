@@ -72,7 +72,7 @@ const contact = () => {
             required
           />
 
-          <Button type="submit" color="green ">
+          <Button className="glow-on-hover" type="submit" color="green ">
             Senden
           </Button>
         </Form>
