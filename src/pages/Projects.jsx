@@ -22,7 +22,7 @@ const Projects = () => {
           href="https://master--first-react-preject-nicole.netlify.app/"
           target="blank"
         >
-          Erstes JavaScript Projekt
+          Erstes React Projekt
         </a>
       </div>
 
