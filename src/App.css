@@ -40,6 +40,7 @@ body {
 .form input {
   border-radius: 10px;
   text-align: center;
+  margin: 0.5rem;
 }
 
 .form textarea {
@@ -48,7 +49,10 @@ body {
   height: 5rem;
   border-radius: 10px;
   text-align: center;
+  margin: 0.5rem;
 }
+
+
 
 .form Button {
   width: 10rem;
@@ -83,12 +87,13 @@ p {
   height: 50px;
   border: none;
   outline: none;
-  color: #fff;
+  color: #000000;
   background: #111;
   cursor: pointer;
   position: relative;
   z-index: 0;
   border-radius: 10px;
+  font-weight: bold;
 }
 
 .glow-on-hover:before {
@@ -106,8 +111,8 @@ p {
     #ff0000
   );
   position: absolute;
-  top: -2px;
-  left: -2px;
+  top: 15px;
+  left: 15px;
   background-size: 400%;
   z-index: -1;
   filter: blur(5px);
@@ -137,7 +142,7 @@ p {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #111;
+  background: #ffffff;
   left: 0;
   top: 0;
   border-radius: 10px;

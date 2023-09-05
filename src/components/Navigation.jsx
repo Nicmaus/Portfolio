@@ -5,10 +5,10 @@ import styles from "../style/Navigation.module.css";
 const Navigation = () => {
   const items = [
     { name: "Home", to: "/", id: 1 },
-    { name: "Contact", to: "/contact-me", id: 2 },
+    { name: "Skills", to: "/skills", id: 2 },
     { name: "Projects", to: "/projects", id: 3 },
     { name: "Info", to: "/info", id: 4 },
-    { name: "Skills", to: "/skills", id: 5 },
+    { name: "Contact", to: "/contact-me", id: 5 },
 
   ];
   return (
