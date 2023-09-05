@@ -15,7 +15,7 @@ const Homepage = () => {
         <img src={person.image} alt={person.name} />
       </div>
       <div>
-        <p className="hallo">Hallo. 😊 </p>
+        <p className="hallo">Hallo 😊 </p>
         <p className="text">Mein Name ist Nicole 😊</p>
         <p className="text">
           Ich bin derzeit Studentin beim DCI und lerne Web Dev 😊

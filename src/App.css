@@ -161,6 +161,7 @@ p {
   position: fixed;
   bottom: 3rem;
   right: 5rem;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 530px) {
@@ -182,4 +183,17 @@ p {
     bottom: 0;
   right: 2rem;
   }
+}
+.allProjects{
+  margin: 3rem;
+display: flex;
+justify-content: space-between;
+}
+.project{
+ font-style: italic;
+ font-size: 1.5rem;
+ 
+}
+.project:hover{
+  color: #00ff95;
 }
