@@ -29,15 +29,35 @@ h1 {
 }
 
 .skill img {
-  width: 15rem;
-  border-radius: 50%;
-  box-shadow: 10px 10px 50px 10px rgb(255, 255, 255);
+  width: 10rem;
+  height: 10rem;
+  box-shadow: 10px 10px 50px 10px rgba(255, 255, 255, 0.726);
 }
 
+
+@media screen and (max-width: 390px) {
+  .skill img {
+    width: 5rem;
+    height: 5rem;   
+     box-shadow: 10px 10px 50px 10px rgba(255, 255, 255, 0.726);
+  }
+  
+  .skillContainer h1{
+    margin: 0.5rem;
+  }
+  .divContainer {
+    width: 390px;
+    align-items: center;
+  }
+}
 @media screen and (max-width: 530px) {
   .skill img {
-    width: 10rem;
-    border-radius: 40%;
-    box-shadow: 10px 10px 50px 10px rgb(250, 250, 250);
+    width: 8rem;
+    height: 8rem;
+    box-shadow: 10px 10px 50px 10px rgba(255, 255, 255, 0.726);
+  }
+  .skillContainer{
+    margin-top: 5rem;
+    align-items: center;
   }
 }

@@ -25,4 +25,15 @@
     align-items: center;
     gap: 2rem;
   }
+  .box1 p, .box2 p, .box3 p {
+    font-size: 3em;
+    color: rgb(68, 205, 50);
+  }
+}
+@media screen and (max-width: 390px) {
+  
+  .box1 p, .box2 p, .box3 p {
+    font-size: 2em;
+    color: rgb(68, 205, 50);
+  }
 }

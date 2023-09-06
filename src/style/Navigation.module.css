@@ -8,7 +8,6 @@ ul {
   display: flex;
   justify-content: space-between;
   padding: 2.5em;
- 
 }
 li {
   box-shadow: 5px 5px 15px 5px rgb(71, 165, 168);
@@ -26,10 +25,25 @@ a {
   font-weight: bold;
 }
 
-@media screen and (max-width: 530px){
-  ul{
-    flex-direction: column;
-    gap: 2rem;
+@media screen and (max-width: 530px) {
+  ul {
+    padding: 0.5rem;
+    justify-content: space-between;
+  }
+  a {
+    font-size: 1em;
+  }
+  .navContainer {
+    margin-bottom: 5rem;
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 390px) {
+  ul {
+    padding: 1rem;
+  }
+  a {
+    font-size: 1rem;
   }
   .navContainer {
     margin-bottom: 5rem;

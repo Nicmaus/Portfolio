@@ -12,7 +12,7 @@ const Homepage = () => {
   return (
     <div className="home">
       <div>
-        <img src={person.image} alt={person.name} />
+        <img className="profilPic" src={person.image} alt={person.name} />
       </div>
       <div>
         <p className="hallo">Hallo 😊 </p>

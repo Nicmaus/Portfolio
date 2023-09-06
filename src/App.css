@@ -15,6 +15,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  background-attachment: fixed;
 }
 
 .home {
@@ -52,8 +53,6 @@ body {
   margin: 0.5rem;
 }
 
-
-
 .form Button {
   width: 10rem;
   background-color: white;
@@ -79,8 +78,6 @@ body {
 p {
   font-size: 2rem;
 }
-
-
 
 .glow-on-hover {
   width: 220px;
@@ -165,7 +162,7 @@ p {
   box-shadow: none;
   position: fixed;
   bottom: 3rem;
-  right: 5rem;
+  right: 3rem;
   cursor: pointer;
 }
 
@@ -174,7 +171,7 @@ p {
     font-size: 2rem;
     font-weight: bold;
   }
-  .home{
+  .home {
     display: flex;
     flex-wrap: wrap;
   }
@@ -183,22 +180,111 @@ p {
     font-weight: bold;
     font-family: "Berkshire Swash", cursive;
   }
-  .footer{
+  .box {
+    width: 530px;
+  }
+  .box p {
+    font-size: 1em;
+  }
+
+  .form {
+    height: 20rem;
+    width: 530px;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+  }
+  .form input {
+    border-radius: 10px;
+    text-align: center;
+    margin: 0.5rem;
+  }
+  .form textarea {
+    width: 20rem;
+    height: 5rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0.5rem;
+  }
+  .form Button {
+    width: 10rem;
+    background-color: white;
+    font-size: 1em;
+    border-radius: 10px;
+
+  }
+  .footer {
     width: 2.5rem;
-    bottom: 0;
-  right: 2rem;
+    bottom: 2rem;
+    right: 2rem;
   }
 }
-.allProjects{
+.allProjects {
   margin: 3rem;
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-.project{
- font-style: italic;
- font-size: 1.5rem;
- 
+.project {
+  font-style: italic;
+  font-size: 1.5rem;
 }
-.project:hover{
+.project:hover {
   color: #00ff95;
+}
+
+@media screen and (max-width: 390px) {
+  .allProjects {
+    margin: 3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .project {
+    font-style: italic;
+    font-size: 1rem;
+  }
+  .project:hover {
+    color: #00ff95;
+  }
+  .footer {
+    width: 2.5rem;
+    bottom: 4rem;
+    right: 1rem;
+  }
+  .box{
+    width: 390px;
+  }
+
+  .form {
+    width: 390px;
+    height: 20rem;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .form input {
+    border-radius: 10px;
+    text-align: center;
+    margin: 0.5rem;
+  }
+
+  .form textarea {
+    display: block;
+    width: 20rem;
+    height: 5rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0.5rem;
+  }
+
+  .form Button {
+    width: 10rem;
+    background-color: white;
+    font-size: 1em;
+    border-radius: 10px;
+  }
 }

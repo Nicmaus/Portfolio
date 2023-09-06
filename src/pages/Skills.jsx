@@ -1,9 +1,9 @@
 import "../style/skills.css";
-import htmlPic from "../assets/html.jpg"
-import cssPic from "../assets/css.jpg"
-import jsPic from "../assets/JS.png"
-import reactPic from "../assets/react.jpg"
-import tailwindPic from "../assets/tailwind.png"
+import htmlPic from "../assets/logoHtml.png"
+import cssPic from "../assets/css3logo.jpg"
+import jsPic from "../assets/logoJs.png"
+import reactPic from "../assets/logoReact.jpg"
+import tailwindPic from "../assets/logoTailwind.png"
 
 
 const pics = {
@@ -17,7 +17,7 @@ const pics = {
 
 const Skills = () => {
   return (
-    <>
+    <div className="skillContainer">
       <h1>Skills!</h1>
       <div className="divContainer">
         <div className="skill">
@@ -45,7 +45,7 @@ const Skills = () => {
 
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
