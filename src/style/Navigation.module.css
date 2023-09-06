@@ -1,12 +1,14 @@
 .navContainer {
   margin-bottom: 5rem;
   width: 100vw;
+ text-align: center;
 }
 
 ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 2.5em;
 }
 li {
@@ -26,27 +28,22 @@ a {
 }
 
 @media screen and (max-width: 530px) {
-  ul {
-    padding: 0.5rem;
-    justify-content: space-between;
-  }
+  
   a {
     font-size: 1em;
   }
   .navContainer {
     margin-bottom: 5rem;
-    width: 100vw;
+    
   }
 }
 @media screen and (max-width: 390px) {
-  ul {
-    padding: 1rem;
-  }
+  
   a {
     font-size: 1rem;
   }
   .navContainer {
     margin-bottom: 5rem;
-    width: 100vw;
+    
   }
 }

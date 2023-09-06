@@ -18,7 +18,6 @@
   color: rgb(68, 205, 50);
 }
 
-
 @media screen and (max-width: 530px) {
    .infoContainer{
     flex-direction: column;

@@ -10,9 +10,9 @@ const footer = {
 
 const Footer = () => {
   return (
-    <div>
-      <img onClick={goGithub} className="footer" src={footer.gitHub} />
-    </div>
+    <footer>
+      <img onClick={goGithub} className="footerImg" src={footer.gitHub} />
+    </footer>
   );
 };
 
