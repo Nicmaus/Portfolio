@@ -1,5 +1,5 @@
 // import { useNavigate } from "react-router-dom";
-import profilbild from "../assets/profilbild.jpg";
+import profilbild from "../assets/me.jpg";
 import "../style/image.css";
 
 const person = {
@@ -15,11 +15,14 @@ const Homepage = () => {
         <img className="profilPic" src={person.image} alt={person.name} />
       </div>
       <div>
-        <p className="hallo">Hallo 😊 </p>
-        <p className="text">Mein Name ist Nicole 😊</p>
+        <p className="hallo">Herzlich Willkommen!  </p>
+       
         <p className="text">
-          Ich bin derzeit Studentin beim DCI und lerne Web Dev 😊
+        Ich bin Nicole, eine angehende Web-Entwicklerin,
         </p>
+        <p className="text"> die sich darauf freut, die digitale Landschaft zu gestalten. Diese Seite dient als Fenster zu meiner Arbeit,</p>
+        <p className="text"> meinen Fähigkeiten und meiner Reise in der Welt des Web-Developments. </p>
+        <p className="text"> Tauchen Sie ein und zögern Sie nicht, mich zu kontaktieren, wenn Sie mehr wissen möchten.</p>
       </div>
     </div>
   );
